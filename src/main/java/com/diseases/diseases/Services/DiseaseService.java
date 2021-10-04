@@ -3,6 +3,7 @@ package com.diseases.diseases.Services;
 import java.util.List;
 import java.util.Optional;
 
+import com.diseases.diseases.Exceptions.ApiException;
 import com.diseases.diseases.Models.Disease;
 import com.diseases.diseases.Repositories.DiseaseRepository;
 
@@ -19,7 +20,12 @@ public class DiseaseService {
     private DiseaseRepository diseaseRepository;
 
     public Optional<Disease> getDisease(double id) {
-        return diseaseRepository.findById(id);
+        Optional<Disease> oneDisease = diseaseRepository.findById(id);
+        if (oneDisease.isEmpty()) {
+            throw new ApiException("disease not found");
+        }
+        return oneDisease;
+
     }
 
     public List<Disease> getAllDiseases() {
