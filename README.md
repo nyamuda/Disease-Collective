@@ -17,7 +17,7 @@ It's intention is solely educational.</p>
 More information about is diseases is still being added.
 
 <h2>How to set it up</h2>
-If you just want to play around with the the API, use the url: https://scienceterms.herokuapp.com</br>
+If you just want to play around with the the API, use the url: https://diseasecollective.herokuapp.com/</br>
 
 <p>To set up the application, clone the repository, then run</p>
 <div>
