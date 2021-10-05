@@ -1,9 +1,6 @@
 # Disease-Collective
-A Restful API that for all diseases. It provides the cause and ways the disease can be cured naturally.
+A Restful API that for all diseases. It provides the cause and ways the disease can be treated naturally.
 
-
-# JAVA-SPRING-BOOT-RESTful-API
-A RESTful API for A 'Level physics and chemistry students. It provides the exam definitions of physics and chemistry terms required by the curriculum (Cambridge/CAPS).
 
 <h2>Motivation</h2>
 <p>"Health is a great treasure. It is the richest possession that mortals can have. Wealth, honor, or learning
@@ -20,35 +17,31 @@ It's intention is solely educational.</p>
 More information about is diseases is still being added.
 
 <h2>How to set it up</h2>
-If you just want to play around with the the API, use the url:https://scienceterms.herokuapp.com</br>
+If you just want to play around with the the API, use the url: https://scienceterms.herokuapp.com</br>
 
-To set up the application, clone the repository, then run
-<ol>
+<p>To set up the application, clone the repository, then run</p>
+<div>
+ <ol>
  <li>Install the dependencies: <code>mvn clean install</code></li>
   <li>Run the Spring Boot app <code>mvn spring-boot:run</code></li>
  <ol>
+</div>
+<h3>Tech/Framework used</h2>
+   <p>Java, Spring Boot, Hibernate & MySQL.</p>
+  
+  <h2>Database</h2>
+  <div><p>The structure of the database is as follows:</p>
+<image src="https://github.com/pnyamuda/Data-Engineering-University-Courses/blob/master/diseases-database.png?raw=true"></div>
+ 
+<h3>How to Use?</h3>
+   <p>Currently the API has only 3 endpoints</p>
+  
+   <p>Get disease by id: <code>/api/disease/{id}</code></p>
+   
+   
+   <p>Get all the diseases:  <code>/api/diseases</code></p>
+   
+  <p>Search for a disease: <code>/api/diseases/{name}</code></p>
+   
+  
 
-<h2>Database</h2>
-The structure of the database is as follows:
-<image src="https://github.com/pnyamuda/Data-Engineering-University-Courses/blob/master/sciencetermsdatabase.png?raw=true">
-
-<h2>Tech/Framework used</h2>
-Java, Spring Boot, Hibernate & MySQL.
-The API uses JSON Web Tokens for authentication and authorization.
-
-<h2>How to Use?</h2>
- Register:</br>
- <code>/user/save</code></br>
- Login:</br>
- <code>/login</code></br>
-To use the API, the user needs register first and the following fields are required:</br>
-<code>
-{
-username:””,
-password:””, 
-firstName:””,
-secondName:””,
-curriculum:{
-  id:""
-  }
-}
