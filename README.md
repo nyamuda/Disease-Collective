@@ -14,7 +14,7 @@ avoided and the natural ways it can be treated is the aim of this API. It provid
 <p>The information the API provides is not intended to diagnose medical problems, prescribe remedies for illness, or treat disease. 
 It's intention is solely educational.</p>
 <h2>Build Status</h2>
-More information about is diseases is still being added.
+More information about diseases is still being added.
 
 <h2>How to set it up</h2>
 If you just want to play around with the the API, use the url: https://diseasecollective.herokuapp.com/</br>
