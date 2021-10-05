@@ -1,5 +1,5 @@
 # Disease-Collective
-A Restful API that for all diseases. It provides the cause and ways the disease can be treated naturally.
+A Restful API that for all diseases. It provides the causes and ways the disease can be treated naturally.
 
 
 <h2>Motivation</h2>
