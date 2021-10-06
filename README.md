@@ -9,7 +9,7 @@ happiness if health is wanting."— Education, 35.</p>
 <p>
 To to teach people the basic principles of right living, to ensure the best health they can have with the limitations
 imposed by the body they have. To keep this living machinery in healthful action and to provide various ways sickness can be
-avoided and the natural ways it can be treated is the aim of this API. It provides information of over 1000 diseases, their causes, symptoms, risk factors and treatment using natural remedies and medication. 
+avoided and the natural ways it can be treated is the aim of this API. It provides information about over 1000 diseases such their causes, symptoms, risk factors and treatment using natural remedies and medication. 
 </p>
 <p>The information the API provides is not intended to diagnose medical problems, prescribe remedies for illness, or treat disease. 
 It's intention is solely educational.</p>
